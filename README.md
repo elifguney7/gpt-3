@@ -4,4 +4,4 @@ Welcome to the Modern React Website project! This project aims to create a sleek
 
 <img width="1243" alt="image" src="https://github.com/elifguney7/react-GPT3-website/assets/93092434/45d7f2e1-0e6d-48d9-b520-31ea947e139e">
 
-To see live version clik this <a href='https://gpt-3-elifguney7.vercel.app/>link</a>. 
+To see live version click [this]([https://website-name.com](https://gpt-3-elifguney7.vercel.app/)https://gpt-3-elifguney7.vercel.app/)  
