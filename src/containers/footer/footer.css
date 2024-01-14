@@ -8,7 +8,7 @@
 
 .gpt3__footer-heading {
     width: 100%;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
     text-align: center;
 }
 
@@ -41,12 +41,12 @@
 .gpt3__footer-links {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     width: 100%;
     text-align: left;
 }
 
 .gpt3__footer-links_logo {
+    flex: 25%;
     display: flex;
     flex-direction: column;
 }
@@ -58,19 +58,27 @@
 
 .gpt3__footer-links_logo p {
     color: #FFF;
-        font-family: var(--font-family);
+    font-family: var(--font-family);
     font-size: 12px;
     font-weight: 400;
     margin-top: 1rem;
     max-width: 170px;
 }
 
+
 .gpt3__footer-links_div {
+    flex: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.gpt3__footer-links_div-child {
     display: flex;
     flex-direction: column;
 }
 
-.gpt3__footer-links_div h4 {
+.gpt3__footer-links_div-child h4 {
     color: #FFF;
     font-family: var(--font-family);
     font-size: 16px;
@@ -79,7 +87,7 @@
 
 }
 
-.gpt3__footer-links_div p {
+.gpt3__footer-links_div-child p {
     color: #FFF;
     font-family: var(--font-family);
     font-size: 12px;
@@ -125,9 +133,20 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     .gpt3__footer-heading h1 {
         font-size: 27px;
         line-height: 38px;
+    }
+
+    .gpt3__footer-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gpt3__footer-links_div {
+        display: flex;
+        justify-content: flex-start;
+        margin-right: 1rem;
     }
 }
